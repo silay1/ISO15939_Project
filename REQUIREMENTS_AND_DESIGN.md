@@ -25,14 +25,14 @@
 
 ### 1.2 Non-Functional Requirements
 
-| ID | Category | Requirement |
-|----|----------|------------|
-| NFR-1 | Technology | Only Java SE 17+ and Java Swing shall be used. No external libraries are permitted. |
-| NFR-2 | Portability | The application shall be compilable and runnable from the command line via `javac` and `java` with no IDE dependency. |
-| NFR-3 | Usability | Validation messages shall be user-friendly and specify exactly which field or selection is missing. |
-| NFR-4 | Maintainability | Model and GUI classes shall be strictly separated (MVC). Code shall include meaningful comments. |
-| NFR-5 | Data | All scenario data shall be hard-coded inside Java classes. File reading is not required. |
-| NFR-6 | Version Control | The project shall be maintained in a public GitHub repository with a consistent commit history. |
+| Category | Requirement |
+|----------|------------|
+| Technology | Only Java SE 17+ and Java Swing shall be used. No external libraries are permitted. |
+| Portability | The application shall be compilable and runnable from the command line via `javac` and `java` with no IDE dependency. |
+| Usability | Validation messages shall be user-friendly and specify exactly which field or selection is missing. |
+| Maintainability | Model and GUI classes shall be strictly separated (MVC). Code shall include meaningful comments. |
+| Data | All scenario data shall be hard-coded inside Java classes. File reading is not required. |
+| Version Control | The project shall be maintained in a public GitHub repository with a consistent commit history. |
 
 ### 1.3 Constraints
 
