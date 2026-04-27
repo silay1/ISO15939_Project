@@ -6,25 +6,6 @@
 **Student ID:** 202328061  
 
 
----
-
-## Table of Contents
-
-1. [Requirements](#1-requirements)
-   - [Functional Requirements](#11-functional-requirements)
-   - [Non-Functional Requirements](#12-non-functional-requirements)
-   - [Constraints](#13-constraints)
-2. [Design](#2-design)
-   - [Architecture – MVC](#21-architecture--mvc)
-   - [Package Structure](#22-package-structure)
-   - [Class Diagram](#23-class-diagram)
-   - [Activity Diagram](#24-activity-diagram)
-   - [Class Descriptions](#25-class-descriptions)
-   - [OOP Principles](#26-oop-principles-applied)
-   - [Score Calculation Formula](#27-score-calculation-formula)
-   - [Collections Usage](#28-collections-usage)
-
----
 
 ## 1. Requirements
 
