@@ -1,10 +1,10 @@
 # Requirements & Design Document
 ## ISO 15939 Measurement Process Simulator
 
-**Course:** SENG 272 – Software Engineering Laboratory  
+  
 **Student:** Sıla Yıldız  
 **Student ID:** 202328061  
-**Semester:** Spring 2026  
+
 
 ---
 
@@ -391,4 +391,4 @@ dimensionScore = Σ (metricScore_i × metricCoeff_i) / Σ metricCoeff_i
 
 ---
 
-*SENG 272 – Spring 2026 | Sıla Yıldız – 202328061*
+
