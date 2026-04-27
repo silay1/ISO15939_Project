@@ -11,18 +11,17 @@
 
 ### 1.1 Functional Requirements
 
-| ID | Requirement |
-|----|------------|
-| FR-1 | The application shall implement a 5-step wizard: **Profile → Define → Plan → Collect → Analyse** |
-| FR-2 | Step 1 (Profile) shall collect username, school name, and session name. All fields are mandatory. If any field is empty, a user-friendly warning message shall be shown. |
-| FR-3 | Step 2 (Define) shall allow selection of quality type (Product / Process), mode (Health / Education), and scenario. Each group shall enforce single selection using radio buttons. |
-| FR-4 | The scenario list in Step 2 shall update dynamically based on the selected quality type and mode combination. |
-| FR-5 | Step 3 (Plan) shall display the dimensions and metrics of the selected scenario in a **read-only** table. Columns: Metric, Coefficient, Direction, Range, Unit. |
-| FR-6 | Step 4 (Collect) shall display raw metric values and automatically calculate a score (1–5) using the ISO 15939 formula. |
-| FR-7 | Step 5 (Analyse) shall display: dimension-based weighted averages (via JProgressBar), a radar/spider chart (bonus), and gap analysis identifying the weakest dimension. |
-| FR-8 | At least 2 modes must be defined; each mode must have at least 2 scenarios. |
-| FR-9 | A step indicator at the top of the screen shall highlight the active step and show a check mark (✓) on completed steps. |
-| FR-10 | The application shall allow backward navigation (Back button) to revisit and modify previous steps. |
+ Requirement 
+* The application shall implement a 5-step wizard: **Profile → Define → Plan → Collect → Analyse** |
+* Step 1 (Profile) shall collect username, school name, and session name. All fields are mandatory. If any field is empty, a user-friendly warning message shall be shown. |
+* Step 2 (Define) shall allow selection of quality type (Product / Process), mode (Health / Education), and scenario. Each group shall enforce single selection using radio buttons. |
+* The scenario list in Step 2 shall update dynamically based on the selected quality type and mode combination. |
+* Step 3 (Plan) shall display the dimensions and metrics of the selected scenario in a **read-only** table. Columns: Metric, Coefficient, Direction, Range, Unit. |
+* Step 4 (Collect) shall display raw metric values and automatically calculate a score (1–5) using the ISO 15939 formula. |
+* Step 5 (Analyse) shall display: dimension-based weighted averages (via JProgressBar), a radar/spider chart (bonus), and gap analysis identifying the weakest dimension. |
+* At least 2 modes must be defined; each mode must have at least 2 scenarios. |
+* A step indicator at the top of the screen shall highlight the active step and show a check mark (✓) on completed steps. |
+* The application shall allow backward navigation (Back button) to revisit and modify previous steps. |
 
 ### 1.2 Non-Functional Requirements
 
